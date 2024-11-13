@@ -7,6 +7,60 @@
 # modificación, eliminación, y métodos integrados de listas.
 # ------------------------------------------------------------
 
+# Ejercicios:
+# 1. Crear una lista con los nombres de 5 frutas colombianas favoritas y mostrarla por pantalla.
+# 2. Acceder al segundo y cuarto elemento de la lista anterior e imprimirlos.
+# 3. Crear una lista con los números del 1 al 10 y mostrar su longitud.
+# 4. Concatenar las dos listas creadas en los ejercicios 1 y 3.
+# 5. Modificar el tercer elemento de la lista del ejercicio 4 al valor 100.
+# 6. Borrar el último elemento de la lista del ejercicio 4.
+# 7. Crear una lista con 3 números enteros y multiplicar cada elemento por 5.
+# 8. Crear dos listas con 5 números enteros cada una y multiplicar los elementos correspondientes de ambas listas.
+# 9. Crear una lista de listas anidadas y acceder al segundo elemento de la segunda lista.
+# 10. Crear una lista a partir de la lista del ejercicio 3, tomando los elementos del índice 2 al 6.
+# 11. Usar el método `.append()` para agregar un nuevo elemento al final de la lista del ejercicio 1.
+# 12. Usar el método `.insert()` para agregar un nuevo elemento en la posición 2 de la lista del ejercicio 3.
+# 13. Usar el método `.remove()` para eliminar un elemento específico de la lista del ejercicio 7.
+# 14. Usar el método `.reverse()` para invertir el orden de la lista del ejercicio 4.
+# 15. Usar el método `.sort()` para ordenar de forma ascendente la lista del ejercicio 7.
+# 16. Usar el método `.pop()` para eliminar y obtener el último elemento de la lista del ejercicio 4.
+# 17. Usar el método `.count()` para contar cuántas veces aparece un elemento específico en la lista del ejercicio 7.
+# 18. Usar el método `.index()` para obtener el índice de un elemento específico en la lista del ejercicio 4.
+# 19. Usar el método `.clear()` para eliminar todos los elementos de la lista del ejercicio 1.
+# 20. Crear una lista vacía y utilizar un bucle `for` para agregar los números del 1 al 10.
+# 21. Crear una lista de números enteros y utilizar un bucle `while` para eliminar los elementos impares.
+# 22. Crear una lista con los nombres de 5 materias favoritas y ordenarlas alfabéticamente.
+# 23. Crear una lista con los números del 1 al 15 y mostrar solo los múltiplos de 3.
+# 24. Crear una lista con los nombres de 10 artistas favoritos y utilizar un bucle `for` para imprimir cada nombre en mayúsculas.
+# 25. Crear una lista con los números del 1 al 20 y utilizar una comprensión de listas para crear una nueva lista con solo los números pares.
+# 26. Crear una lista con los nombres de los municipios del departamento de Arauca y utilizar un bucle `for` para imprimir cada nombre en orden inverso.
+# 27. Crear una lista con los números del 1 al 12 y utilizar una comprensión de listas para crear una nueva lista con los cuadrados de cada número.
+# 28. Crear una lista con los meses del año y utilizar el método `.index()` para obtener el índice del mes "Junio".
+# 29. Crear una lista con los nombres que usted le pondría a 6 mascotas y utilizar el método `.remove()` para eliminar una mascota de la lista.
+# 30. Crear una lista con los números del 1 al 20 y utilizar el método `.sort(reverse=True)` para ordenarla de forma descendente.
+# 31. Crear una lista con los nombres de 4 libros favoritos y utilizar el método `.append()` para agregar un nuevo libro al final de la lista.
+# 32. Crear una lista con los números del 1 al 15 y utilizar una comprensión de listas para crear una nueva lista con los números impares.
+# 33. Crear una lista con los nombres de 7 comidas favoritas y utilizar el método `.insert()` para agregar una nueva comida en la posición 3.
+# 34. Crear una lista con los números del 1 al 10 y utilizar el método `.extend()` para agregar una segunda lista con los números del 11 al 15.
+# 35. Crear una lista con los nombres de 6 compañeros y utilizar el método `.count()` para contar cuántas veces aparece un nombre específico en la lista.
+# 36. Crear una lista con los números del 1 al 12 y utilizar una comprensión de listas para crear una nueva lista con los números divisibles por 3.
+# 37. Crear una lista con los nombres de 5 artistas musicales favoritos y utilizar el método `.reverse()` para invertir el orden de la lista.
+# 38. Crear una lista con los números del 1 al 20 y utilizar una función lambda y el método `.sort()` para ordenar la lista de forma descendente.
+# 39. Crear una lista con las materias de la universidad y utilizar el método `.pop()` para eliminar y obtener el último elemento de la lista.
+# 40. Crear una lista con los números del 1 al 25 y utilizar una comprensión de listas para crear una nueva lista con los números múltiplos de 5.
+# 41. Crear una lista con los nombres de 8 deportes y utilizar una función anónima y el método `.sort()` para ordenar la lista.
+# 42. Crear una lista con los números del 1 al 15 y utilizar el método `.clear()` para eliminar todos los elementos de la lista.
+# 43. Crear una lista con los nombres de 6 países y utilizar un bucle `for` para imprimir cada nombre en minúsculas.
+# 44. Crear una lista con los números del 1 al 20 y utilizar una comprensión de listas para crear una nueva lista con los cuadrados de los números pares.
+# 45. Crear una lista con los nombres de 10 videojuegos y utilizar el método `.index()` para obtener el índice de un juego específico.
+# 46. Crear una lista con los números del 1 al 12 y utilizar el método `.remove()` para eliminar un número específico de la lista.
+# 47. Crear una lista con los nombres de 7 monumentos colombianos y utilizar una función lambda y el método `.sort(key=len)` para ordenar la lista por longitud de nombre.
+# 48. Crear una lista con los números del 1 al 18 y utilizar una comprensión de listas para crear una nueva lista con los números múltiplos de 3 y 5.
+# 49. Crear una lista con los nombres de 6 asignaturas que le parecen interesantes de la carrera y utilizar el método `.append()` para agregar un nuevo nombre al final de la lista.
+# 50. Crear una lista con los números del 1 al 25 y utilizar el método `.pop()` para eliminar y obtener el elemento de la posición 7.
+# ------------------------------------------------------------
+
+
 # Ejercicio 1
 print("\n# Ejercicio 1: Crear lista de frutas favoritas y mostrarla")
 frutas_favoritas = ["Mango", "Guanábana", "Lulo", "Maracuyá", "Guayaba"]
